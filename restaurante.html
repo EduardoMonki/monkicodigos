@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ <title>Restaurante El monkiboy menu</title>
+</head>
+<body>
+    <style>
+        img{
+            width:200px;
+            height:auto;
+        }
+        table{
+            width: 80%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            box-shadow: 0 5px 15px rgb(20, 255, 12);
+            margin-left:50px ;
+        }
+        th,tr{
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(217, 204, 235);
+        }
+        tr:hover{
+            background-color: rgb(40, 235, 72);
+        }
+    </style>
+    <div style="margin: 24px;">
+        <nav class="navba navbar-light"
+        style="background-color: rgb(0, 0, 0);">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"
+            >Inicio</a>
+            <div class="collapse navbar-collapse" id="navbarNabDropDown">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item
+                     dropdown">
+                     <a class="nav-link dropdown-toggle"
+                     href="" id="navbarDropdownMenuLink"
+                     data-toggle="dropdown"
+                     aria-haspopup="true"
+                     aria-expanded="false">unidad 1</a>
+                     <div class="dropdown-menu"
+                     aria-labelledby="navbarDripdownMenuLink">
+                     <a class="dropdown-item" href="perfil.html">perfil</a><br>
+                     <a class="dropdown-item" href="calculadora.html">Calculadora</a><br>
+                     <a class="dropdown-item" href="restaurante.html">Tienda parte 1</a><br>
+                     </div>
+                    </li>
+                    <li class="nav-item
+                    dropdown">
+                    <a class="nav-link dropdown-toggle"
+                    href="" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">unidad 2</a>
+                    <div class="dropdown-menu"
+                    aria-labelledby="navbarDripdownMenuLink">
+                    <a class="dropdown-item" href="tiendapedido.html">Tienda pedido</a><br>
+                    <a class="dropdown-item" href="json.html">JSON</a><br>
+                    <a class="dropdown-item" href="tiendapedido2.html">Tienda parte 2</a><br>
+                    </div>
+                   </li>
+                   <li class="nav-item
+                   dropdown">
+                   <a class="nav-link dropdown-toggle"
+                   href="" id="navbarDropdownMenuLink"
+                   data-toggle="dropdown"
+                   aria-haspopup="true"
+                   aria-expanded="false">unidad 3</a>
+                   <div class="dropdown-menu"
+                   aria-labelledby="navbarDripdownMenuLink">
+                   <a class="dropdown-item" href="basededatos.html">Base de datos</a><br>
+                   <a class="dropdown-item" href="peliculas.html">Peliculas</a><br>
+                   </div>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </div>
+    <div style="margin:24px;">
+    </div>
+    <a href="tienda.html"></a>
+    <h1>Desayunos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="desayuno1.jpeg" alt="Desayuno"></td>
+            <td><p>Hotcakes Frutales Fantásticos
+                Nuestros hotcakes esponjosos, adornados con una variedad de frutas frescas, ofrecen una experiencia de sabor fantástica y refrescante. ¡Disfruta de esta delicia hoy mismo!</p></td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno2.jpeg" alt="Desayuno"></td>
+            <td><p>Cereal con frutos y platano Nuestro cereal mezcla frutos secos y frescos con rodajas de plátano. Un desayuno sabroso y nutritivo. ¡Ven y prueba!</p></td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno3.jpeg" alt="Desayuno"></td>
+            <td><p>Hotcakes sencillos. Un delicioso desayuno muy clasico con 5 hotcakes al estilo Estados Unidos.</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno4.jpeg" alt="Desayuno"></td>
+            <td><p>"Delicioso yogurt de avena con una mezcla de frutos frescos, ofreciendo una experiencia refrescante, nutritiva y llena de sabor para disfrutar en cualquier momento del día."</p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno5.jpeg" alt="Desayuno"></td>
+            <td><p>"Tres suculentos waffles acompañados de una generosa porción de helado, creando una combinación indulgente y reconfortante que deleitará tus papilas con cada bocado."</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="desayuno6.jpeg" alt="Desayuno"></td>
+            <td><p>"Plato tradicional de huevos con tocino, servido con un vaso de jugo de naranja recién exprimido, proporcionando una explosión de sabores clásicos y refrescantes para comenzar el día con energía y satisfacción."</p></td>
+            <td>$70</td>
+        </tr>
+
+    
+    </table>
+    <h1>Almuerzos</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="almuerzo1.jpeg" alt="almuerzo"></td>
+            <td><p>" Papacman " "Clásica tortilla de patata, con su mezcla perfecta de papas tiernas y huevos batidos, cocinada a la perfección para ofrecerte un bocado reconfortante y lleno de sabor que te transportará a los sabores auténticos de España." :v </p></td>
+            <td>$60</td>
+        </tr>
+        <tr>
+            <td><img src="almuerzo2.jpeg" alt="almuerzo"></td>
+            <td><p>"Salteado en arroz, una combinación vibrante de vegetales frescos y tiernos trozos de carne, revueltos con arroz fragante y sazonado con especias aromáticas, creando un plato sabroso y reconfortante que satisfará todos tus antojos."
+Salteado de arroz</p></td>
+            <td>$45</td>
+        </tr>
+        <tr>
+            <td><img src="almuerzo3.jpeg" alt="almuerzo"></td>
+            <td><p>"Orden de tres tostadas crujientes cubiertas con una exquisita combinación de verduras frescas y jugosa carne, creando una explosión de sabores y texturas en cada bocado que te dejará completamente satisfecho y listo para enfrentar el día</p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="almuerzo4.jpeg" alt="almuerzo"></td>
+            <td><p> "Una fresca ensalada con una variedad de vegetales crujientes, aderezada con una vinagreta ligera y refrescante, acompañada de un vaso de agua fría para una experiencia saludable y revitalizante que cuida tu bienestar."
+ </p></td>
+            <td>$35</td>
+        </tr>
+        <tr>
+            <td><img src="almuerzo5.jpeg" alt="almuerzo"></td>
+            <td><p> "Tres deliciosos sándwiches rellenos de crujientes vegetales frescos, queso blanco derretido y sabroso jamón, creando una combinación perfecta de sabores y texturas que te deleitará en cada mordisco." </p></td>
+            <td>$68</td>
+        </tr>
+        <tr>
+            <td><img src="almuerzo6.jpeg" alt="almuerzo"></td>
+            <td><p> "Sopa de camarón, una mezcla reconfortante de caldo aromático, camarones jugosos y vegetales frescos, ofreciendo una experiencia culinaria reconfortante y llena de sabor que te transportará a la costa con cada cucharada."
+ </p></td>
+            <td>$55</td>
+        </tr>
+
+    
+    </table>
+
+    <h1>Comidas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="comida1.jpeg" alt="Comida"></td>
+            <td><p> "Hamburguesa doble con una jugosa combinación de dos carnes, queso derretido y una variedad de verduras frescas, todo servido con crujientes papas fritas, creando una experiencia culinaria satisfactoria y abundante que satisfará tus antojos más indulgentes." </p></td>
+            <td>$120</td>
+        </tr>
+        <tr>
+            <td><img src="comida2.jpeg" alt="Comida"></td>
+            <td><p> "Pozole acompañado de una selección fresca de verduras, ofreciendo un plato reconfortante y lleno de sabor que combina la riqueza de los ingredientes con la frescura de las verduras, para una experiencia culinaria auténtica y deliciosa." </p></td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td><img src="comida3.jpeg" alt="Comida"></td>
+            <td><p> "Torta ahogada, un manjar de la gastronomía mexicana compuesto por un bollo relleno de carne de cerdo jugosa, bañado en una salsa picante y acompañado de cebolla y limón, brindando una explosión de sabores auténticos y emocionantes en cada bocado." </p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="comida4.jpeg" alt="Comida"></td>
+            <td><p> "Tres quesadillas calientes, rellenas de queso derretido y acompañadas de tu elección de proteína y verduras frescas, creando un plato delicioso y reconfortante que te transportará a los sabores auténticos de México en cada mordisco." </p></td>
+            <td>$40</td>
+        </tr>
+        <tr>
+            <td><img src="comida5.jpeg" alt="Comida"></td>
+            <td><p> "Orden de tres tacos auténticos, rellenos con tu elección de carne asada, pollo, cerdo o verduras, acompañados de cebolla, cilantro y limón, ofreciendo una explosión de sabores tradicionales mexicanos en cada bocado." </p></td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="comida6.jpeg" alt="Comida"></td>
+            <td><p> "Tres crujientes flautas rellenas de deliciosas verduras, acompañadas de una generosa porción de crema fresca, creando un plato sabroso y reconfortante que deleitará tus papilas con su textura crujiente y suave sabor." </p></td>
+            <td>$45</td>
+        </tr>
+    </table>
+    <h1>Cenas</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="cena1.jpeg" alt="cena"></td>
+            <td><p> "Lasagna, un clásico de la cocina italiana, compuesta por capas de pasta al dente, ricotta cremosa, salsa de tomate sazonada, carne molida y una mezcla de quesos gratinados, ofreciendo una experiencia culinaria reconfortante y llena de sabor en cada porción." </p></td>
+            <td>$70</td>
+        </tr>
+        <tr>
+            <td><img src="cena2.jpeg" alt="cena"></td>
+            <td><p> "Carne asada, un plato tradicional de la cocina latinoamericana, con trozos jugosos de carne de res marinada y a la parrilla, acompañada de guarniciones como arroz, frijoles, tortillas y una variedad de salsas, ofreciendo una experiencia culinaria sabrosa y reconfortante que resalta los sabores ahumados y jugosos de la carne." </p></td>
+            <td>$140</td>
+        </tr>
+        <tr>
+            <td><img src="cena3.jpeg" alt="Desayuno"></td>
+            <td><p> "Orden de deliciosos boneless y alitas, con crujientes y jugosos trozos de pollo bañados en una variedad de salsas sabrosas, ofreciendo una experiencia culinaria satisfactoria y llena de sabor que deleitará a los amantes de las comidas casuales y reconfortantes." </p></td>
+            <td>$190</td>
+        </tr>
+        <tr>
+            <td><img src="cena4.jpeg" alt="Desayuno"></td>
+            <td><p> "Sushi, una exquisita selección de rollos de arroz envueltos en alga nori y rellenos de una variedad de pescados frescos, mariscos, vegetales y aderezos, ofreciendo una experiencia culinaria elegante y llena de sabores frescos y exóticos que deleitarán tus sentidos con cada bocado." </p></td>
+            <td>$90</td>
+        </tr>
+        <tr>
+            <td><img src="cena5.jpeg" alt="Desayuno"></td>
+            <td><p> "Plato de arroz acompañado de jugosa milanesa de pollo empanizada y una variedad de verduras frescas, creando una combinación equilibrada y reconfortante que combina sabores y texturas para una experiencia culinaria satisfactoria y deliciosa." </p></td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td><img src="cena6.jpg" alt="Desayuno"></td>
+            <td><p> "Salmón ahumado acompañado de una selección de verduras frescas, ofreciendo un plato ligero y saludable que resalta los sabores intensos y ahumados del salmón, complementados con la frescura y textura crujiente de las verduras, para una experiencia culinaria equilibrada y deliciosa." </p></td>
+            <td>$130</td>
+        </tr>
+
+    </table>
+    <h1>Postres</h1>
+    <table>
+        <tr>
+            <th>Imagen</th>
+            <th>Descripcion</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td><img src="postre1.jpeg" alt="Postres"></td>
+            <td><p> "Gelatina de mosaico, un postre colorido y refrescante compuesto por capas de gelatina de diferentes sabores y colores, ofreciendo una experiencia dulce y divertida que deleitará a personas de todas las edades con su combinación de texturas y sabores variados." </p></td>
+            <td>$30</td>
+        </tr>
+        <tr>
+            <td><img src="postre2.jpeg" alt="Postres"></td>
+            <td><p>Cheescake con fresa</p></td>
+            <td>$48</td>
+        </tr>
+        <tr>
+            <td><img src="postre3.jpeg" alt="Postres"></td>
+            <td><p> Carlota de Limon </p></td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="postre4.jpeg" alt="Postres"></td>
+            <td><p> Smoothie de mango </p></td>
+            <td>$80</td>
+        </tr>
+        <tr>
+            <td><img src="postre5.jpeg" alt="Postres"></td>
+            <td><p>Pastel de fresa (3 leches)</p></td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td><img src="postre6.jpeg" alt="Postres"></td>
+            <td><p>  </p>Cheescake de Arandanos</td>
+            <td>$45</td>
+        </tr>
+    </table>
+
+        <h1>Bebidas</h1>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td><img src="bebida1.jpeg" alt="Bebida"></td>
+                <td><p> Vaso de agua </p></td>
+                <td>$15</td>
+            </tr>
+            <tr>
+                <td><img src="bebida2.jpeg" alt="Bebida"></td>
+                <td><p> Agua de jamaica </p></td>
+                <td>$20</td>
+            </tr>
+            <tr>
+                <td><img src="bebida3.jpeg" alt="Bebida"></td>
+                <td><p>Taza de cafe </p></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><img src="bebida4.jpeg" alt="Bebida"></td>
+                <td><p>Cocacola de vidrio</p></td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td><img src="bebida5.jpeg" alt="Bebida"></td>
+                <td><p> Michelada </p></td>
+                <td>$80</td>
+            </tr>
+            <tr>
+                <td><img src="bebida6.jpeg" alt="Bebida"></td>
+                <td><p> Vino (Cabernet Sauvignon) </p></td>
+                <td>$155</td>
+            </tr>
+    </table>
+</body>
+</html>
